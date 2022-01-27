@@ -1,0 +1,6 @@
+name: skript-disguises
+authors: [LimeGlass]
+version: @version@
+api-version: 1.13
+depend: [Skript, LibsDisguises]
+main: me.limeglass.disguises.Disguises

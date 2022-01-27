@@ -1,0 +1,63 @@
+import org.apache.tools.ant.filters.ReplaceTokens
+apply plugin: 'eclipse'
+apply plugin: 'java'
+
+repositories {
+	mavenCentral()
+
+	// Spigot
+	maven {
+		url 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/'
+	}
+
+	// Bungeecord
+	maven {
+		url "https://oss.sonatype.org/content/repositories/snapshots/"
+	}
+
+	// ProtocolLib
+	maven {
+		url "https://repo.dmulloy2.net/repository/public/"
+	}
+
+	// LibsDisguises
+	maven {
+		url "https://repo.md-5.net/content/groups/public/"
+	}
+
+	// Jitpack for Skript
+	maven {
+		url 'https://jitpack.io'
+	}
+
+}
+
+dependencies {
+
+	//Nullable annotation
+	implementation (group: 'org.eclipse.jdt', name: 'org.eclipse.jdt.annotation', version: '1.1.0')
+
+	//Spigot/Bukkit
+	implementation (group: 'org.spigotmc', name: 'spigot-api', version: '1.17-R0.1-SNAPSHOT')
+
+	//Skript
+	implementation (group: 'com.github.SkriptLang', name: 'Skript', version: '2.5.3') {
+		transitive = false
+	}
+
+	implementation (group: 'com.comphenix.protocol', name: 'ProtocolLib', version: '4.7.0');
+
+	// LibsDisguises
+	implementation (group: 'LibsDisguises', name: 'LibsDisguises', version: '10.0.25') {
+		transitive = true
+	}
+
+}
+
+processResources {
+	filter ReplaceTokens, tokens: ["version": project.property("version")]
+	from ('lang') {
+        include '**/*'
+        into 'lang/'
+    }
+}

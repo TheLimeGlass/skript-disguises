@@ -1,0 +1,125 @@
+version: @version@
+
+#@an makes the pattern allow for `an`.
+
+types:
+	disguisetypes: disguise types, disguisetype
+
+disguisetype:
+	area_effect_cloud: area effect cloud
+	armor_stand: armour stand, armor stand
+	arrow: arrow
+	axolotl: axolotl
+	bat: bat
+	bee: bee, bumble bee
+	blaze: blaze
+	boat: boat
+	cat: cat, kitten, kitty
+	cave_spider: cave spider
+	chicken: chicken, chick
+	cod: cod, fish
+	cow: cow
+	creeper: creeper
+	dolphin: dolphin
+	donkey: donkey
+	dragon_fireball: dragon fireball
+	drowned: drown, drowned
+	dropped_item: dropped item
+	egg: egg
+	elder_guardian: elder guardian, big guardian
+	ender_crystal: ender crystal, crystal
+	ender_dragon: dragon, ender dragon
+	ender_pearl: ender pearl, pearl
+	ender_signal: ender signal, signal
+	enderman: ender man, enderman
+	endermine: endermine
+	evoker: evoker
+	evoker fangs: evoker fangs
+	experience_orb: experience orb, orb
+	falling_block: falling block, block
+	fireball: fireball, fire ball
+	firework: firework
+	fishing_hook: fishing hook, hook
+	fox: fox, foxes
+	ghast: ghast
+	giant: giant, giant zombie
+	glow_item_frame: glow item frame, glowing item frame
+	glow_squid: glow squid, glowing squid
+	goat: goat
+	guardian: guardian
+	hoglin: hoglin, hog
+	horse: horse
+	husk: husk
+	illusioner: illusioner
+	iron_golem: iron golem
+	item_frame: item frame
+	llama: llama
+	llama_spit: llama spit, spit
+	leash_hitch: leash hitch, hitch
+	magma_cube: magma cube
+	marker: marker
+	minecart: minecart
+	minecart_chest: minecart chest, chest minecart, minecart with a chest
+	minecart_command: minecart command block, command block minecart, minecart with a command block
+	minecart_furnace: minecart furnace, furnace minecart, minecart with a furnace
+	minecart_hopper: minecart hopper, hopper minecart, minecart with a hopper
+	minecart_mob_spawner: minecart mob spawner, mob spawner minecart, minecart with a mob spawner, spawner minecart, minecart spawner
+	minecart_tnt: minecart tnt, tnt minecart, minecart with a tnt
+	modded_misc: modded misc, modded item
+	modded_living: modded living, modded living entity
+	mule: mule
+	mushroom_cow: mushroom cow
+	ocelot: ocelot, jungle cat
+	painting: painting, wall painting
+	panda: panda, panda bear
+	parrot: parrot, bird
+	phantom: phantom, flying stingray
+	pig: pig
+	pig_zombie: pig zombie, zombie pig
+	piglin: piglin
+	piglin_brute: piglin brute
+	pillager: pillager
+	player: player, human
+	polar_bear: polar bear
+	primed_tnt: primed tnt, tnt, dynamite
+	pufferfish: pufferfish, puffer fish
+	rabbit: rabbit
+	ravager: ravager
+	salmon: salmon
+	sheep: sheep
+	shulker: shulker
+	shulker_bullet: shulker bullet
+	silverfish: silver fish, silverfish
+	skeleton: skeleton
+	skeleton_horse: skeleton horse, bone horse
+	slime: slime, slime cube
+	small_fireball: small fireball
+	snowball: snowball, snow ball
+	snowman: snowman
+	spectral_arrow: spectral arrow
+	spider: spider
+	splash_potion: splash potion
+	squid: squid
+	stray: stray
+	strider: strider
+	thrown_exp_bottle: thrown exp bottle, exp bottle, thrown xp bottle, xp bottle
+	tipped_arrow: tipped arrow, potion arrow
+	trident: trident
+	trader_llama: trader llama, trading llama
+	tropical_fish: tropical fish
+	turtle: turtle
+	unknown: unknown
+	vex: vex
+	villager: villager
+	vindicator: vindicator
+	wandering_trader: wandering trader, trader
+	witch: witch
+	wither: wither
+	wither_skeleton: wither skeleton
+	wither_skull: wither skull
+	wolf: wolf, dog
+	zoglin: zoglin, zombie hoglin, zombie hog
+	zombie: zombie
+	zombie_horse: zombie horse, undead horse
+	zombie_villager: zombie villager, undead villager
+	zombifed_piglin: zombie piglin, zombifed piglin, zombie pigman
