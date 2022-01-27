@@ -40,11 +40,6 @@ public class Types {
 					public String toVariableNameString(DisguiseType type) {
 						return toString(type, 0);
 					}
-					
-					@Override
-					public String getVariableNamePattern() {
-						return ".+";
-					}
 				})
 				.serializer(new EnumSerializer<>(DisguiseType.class)));
 		Classes.registerClass(new ClassInfo<>(FlagWatcher.class, "flagwatcher")
@@ -66,11 +61,6 @@ public class Types {
 					@Override
 					public String toVariableNameString(FlagWatcher disguise) {
 						return toString(disguise, 0);
-					}
-					
-					@Override
-					public String getVariableNamePattern() {
-						return ".+";
 					}
 				}));
 		Classes.registerClass(new ClassInfo<>(Disguise.class, "disguise")
@@ -97,11 +87,6 @@ public class Types {
 					@Override
 					public String toVariableNameString(Disguise disguise) {
 						return toString(disguise, 0);
-					}
-					
-					@Override
-					public String getVariableNamePattern() {
-						return ".+";
 					}
 				}));
 	}
